@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/* CSS Document */
+/*Main css code */
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:black;
+	background-color:#EDFFFC;
+	font-size:15pt;
+	
+}
+iframe{
+	 width:100%;
+	height:460pt;
+	border:0pt;
+margin:auto;
+}
+#container{
+	background-color:#EDFFFC;
+	width:80%;
+	float:right;
+	right:0pt;
+	top:0pt;
+	
+	
+	
+}
+#sidebar{
+	background-color:white;
+	width:20%;
+	height:100%;
+	left:0pt;
+	top:0pt;
+	float:left;
+	position:fixed;
+	overflow: auto;
+	
+}
+#header{
+	  text-align:center;
+	  width:100%;
+
+}
+#header h1{
+	  margin-left:30pt;
+}
+
+
+#nav{
+	height:100%;
+}
+#nav img{
+	width:60%;
+	padding:20%;
+}
+#nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+#nav li a{
+	display:block;
+	width:100%;
+	color:black;
+	text-decoration:none;
+	text-align:center;
+	padding-bottom:9%;
+	background-color:white;
+    padding-top:10%;
+}
+#nav li a:hover{
+	color:white;
+	background-color:grey;
+}
+#main{
+	padding-left: 5%;
+	padding-right:5;
+	width:90%;
+	height:100%;
+
+}
+#main h2{
+	padding-top:10pt;
+	padding-left:70pt;
+}
+#main p{
+	width:80%;
+	  margin-left:0pt;
+	  margin-right:20pt;
+	  padding-left:50pt;
+	  padding-right:50pt;
+	  padding-bottom:5pt;
+}
+
+
+#footer{
+	float:left;
+   text-align:center;
+   width:100%;
+   height:50pt;
+}
+#footer p{
+   	padding-top:1%;
+	}
+.line{
+		float:left;
+	display:block;
+	margin:auto;
+	width:100%;
+	height:0.4pt;
+	background-color:black;
+}
+.artistbanner{
+	width: 100%;
+	margin-top:10pt;
+}
+
+/*Main css code end */
+/*artist descrition css */
+#artistsdescription h2{
+	padding-left:10pt;
+	font-size:15pt;
+}
+#artistsdescription p{
+	padding-left:15pt;
+	font-size:11pt;
+
+}
+#artistsdescription ul{
+	    list-style-type: none;
+    margin-bottom: 10pt;
+    padding: 0pt;
+	width:100%;
+	
+}
+#artistsdescription li{
+	display:block;
+	margin-left:15pt;
+	width:23%;
+	float:left;
+}
+/*albums css code */
+#artistnav ul{
+    list-style-type: none;
+    margin-bottom: 10pt;
+    padding: 0pt;
+	width:100%;
+}
+
+#artistnav li a{
+	display:block;
+	width:40%;
+	height:100pt;
+	text-decoration:none;
+	padding-bottom:20%;
+	margin:auto;
+	margin-bottom:10pt;
+    padding-top:14%;
+}
+#cesara{
+	background-image:url(../images/cesara_albums.png);
+	background-repeat:no-repeat;
+	background-size: contain;
+}
+#dante{
+	background-image:url(../images/dante_albums.png);
+	background-repeat:no-repeat;
+	background-size: contain;
+}
+#rodrigo{
+	background-image:url(../images/rodrigo_albums.png);
+	background-repeat:no-repeat;
+	background-size: contain;
+}
+#roberto{
+	background-image:url(../images/roberto_albums.png);
+	background-repeat:no-repeat;
+	background-size: contain;
+}
+/* specific albums css code */
+#specific{
+	width:100%;
+
+}
+#specific img{
+
+	width:30%;
+	
+}
+#specific ul{
+
+	list-style-type: none;
+}
+#specific li{
+	margin-top:20pt;
+}
+#specific p{
+
+	width:50%;
+	float:right;
+	margin-bottom:50pt;
+
+
+}
+/*mobiel code */
+
+
